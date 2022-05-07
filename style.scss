@@ -40,7 +40,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $titleFont;
-  color: #000000;
+  color: #ffffff;
   font-weight: bold;
 
   line-height: 1.7;
@@ -77,11 +77,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: #00a2ff;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: #00a2ff;
   }
 }
 
@@ -240,7 +240,7 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: #00a2ff;
     }
   }
 }
